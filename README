@@ -1,0 +1,31 @@
+qbo_internet_services
+13-12-2012
+
+=== Copyright ===
+
+Copyright (C) 2012 Thecorpora SL
+
+=== License ===
+
+=== Description  ===
+
+This node access to internet services and parse the usefull information.
+
+=== Building ===
+
+rosmake
+
+=== Run ===
+                                                                                                                                     
+                                                                                                                                     
+=== Arvhive Contents ===                                                                                                             
+                                                                                                                                     
+=== Changelog ===                                                                                                                    
+                                                                                                                                     
+                                                                                                                                     
+=== Homepage ===                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+=== Contact ===                                                                                                                      
+                                                                                                                                     
+Sergio Merino <s.merino@openqbo.org>  
