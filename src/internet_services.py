@@ -59,6 +59,7 @@ def weather(coordinates):
     if coordinates=="":
         coordinates=geoip_Location()
     try:
+        coordinates=coordinates.replace("\\","")
         decodedCoor=json.loads(coordinates)
         if type(decodedCoor) is dict:
             latitude=decodedCoor['latitude']
@@ -66,7 +67,7 @@ def weather(coordinates):
         else:
             print "Not valid JSON recived"
     except ValueError:
-        print "Not valid JSON recived"
+        print "Not valid JSON recived, can't be decode"
         return "-1"
     except KeyError:
         print "Latitude or longitude not present in parameters"
@@ -101,6 +102,8 @@ def weather(coordinates):
         print "Problems in weather JSON"
         return "-1"
     return response
+
+
 
 def handle_service(req):
     print "Service called:"+req.service
