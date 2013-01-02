@@ -1,14 +1,15 @@
-qbo_internet_services
-13-12-2012
+qbo_internet_services v1.0
+02-01-2013
 
 === Copyright ===
 
-Copyright (C) 2012 Thecorpora SL
+Copyright (C) 2012-2013 Thecorpora SL
 
 
 === Description  ===
 
-This node access to internet services and parse the usefull information.
+This node access to internet services and parse the useful information.
+It provide a ROS service to access to that information
 
 === Building ===
 
@@ -20,11 +21,13 @@ rosmake
 === Arvhive Contents ===                                                                                                             
                                                                                                                                      
 === Changelog ===                                                                                                                    
-                                                                                                                                     
+qbo_internet_services v1.0
+        * First release
+-- Sergio Merino <s.merino@openqbo.org>  02-01-2013 
                                                                                                                                      
 === Homepage ===                                                                                                                     
-                                                                                                                                     
-                                                                                                                                     
+http://openqbo.org/wiki/doku.php?id=qbo_apps:ros_pack:qbo_internet_services
+ 
 === Contact ===                                                                                                                      
                                                                                                                                      
 Sergio Merino <s.merino@openqbo.org>  
